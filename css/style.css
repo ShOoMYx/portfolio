@@ -1,0 +1,299 @@
+@import url('https://fonts.cdnfonts.com/css/google-sans');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Product Sans', sans-serif;
+}
+#welcome{
+    background-color: rgb(43, 41, 41)  ;
+    padding-top: 50px;
+
+}
+.welcome-card{
+    width: 45%;
+}
+#welcome h1{
+    color: #fff;
+}
+#welcome p{
+    font-size: 25px;
+}
+#welcome span{
+    color: orange;
+}
+#welcome h2{
+    color: #fff;
+}
+#welcome p{
+    color: #fff;
+}
+#welcome button{
+    padding: 15px;
+    font-size: 25px;
+    width: 150px;
+    margin-top: 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+#welcome img{
+    left: 120px;
+    width: 70%;
+    border-radius: 55px;
+    position: relative;
+    bottom: 30px; 
+}
+
+#project{
+    height: 700px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#project h2{
+    text-align: center;
+    color: aqua;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+#project .card{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#project .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.project{
+    margin: 0px auto;
+    padding-top: 30px;
+    width: 30%;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#services{
+    height: 700px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),url(../img/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.service-title{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 70px 0px;
+    font-size: 20px;
+    letter-spacing: 3px;
+   
+}
+.service-title h1{
+    color: aqua;
+}
+.service-title p{
+    text-align: center;
+}
+.services{
+    width: 90%;
+    display: flex;
+   justify-content: space-between;
+   align-self: center;
+}
+.service-card{
+    width: 25%;
+    background-color: orange;
+    text-align: center;
+    margin: 0px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+.service-card i{
+    font-size: 45px;
+}
+#contact{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-color: rgb(43, 41, 41)  ;
+    text-align: center;
+}
+#contact h1{
+    color: orange;
+}
+#contact h4{
+    color: #fff;
+}
+#contact a{
+    color: #fff;
+    text-decoration: none;
+}
+#contact p{
+    color: white;
+}
+#contact-title{
+    width: 100%;
+    height: 100px;
+ 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+#contact-title p{
+    
+    text-transform: uppercase;
+    font-size: 40px;
+    color: aqua;
+}
+#contact{
+    width:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),url(../img/background3.jpg);
+    background-size:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-forma{
+	width:30%;
+	height:100%;
+
+}
+#input{
+	border-radius:25px;
+}
+.input-grupa{
+	width:100%;
+	margin-bottom:30px;
+	position:relative;	
+}
+input, textarea{
+	width:100%;
+	padding:10px;
+	outline:0;
+	top:0;
+	left:0;
+	border:1px solid #fff;
+	color:#fff;
+	background:transparent;
+	font-size:15px;
+	
+}
+label{
+	height:100px;
+	position:absolute;
+	left:0;
+	top:0;
+	padding:10px;
+	color:#fff;
+	cursor:text;
+	transition:0.2s;
+	
+}
+#input button{
+	width:100%;
+	padding:10px 0px;
+	color:#fff;
+	outline:none;
+	background:transparent;
+	border:1px solid #fff;
+	cursor:pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+	top:-35px;
+	font-size:15px;
+}
+@media screen  and (max-width: 1024px)
+{
+    #welcome{
+        background-color: rgb(43, 41, 41)  ;
+        padding-top: 30px;
+    
+    }
+    .welcome-card{
+        width: 48%;
+        margin-right: auto;
+    }
+    #welcome p{
+        font-size: 22px;
+    }
+    #welcome span{
+        color: rgb(214, 144, 12);
+    }
+    #welcome button{
+        font-size: 20px;
+        width: 120px;
+        margin-top: 30px;
+        background-color: rgb(255, 166, 0);
+        border: none;
+        border-radius: 10px;
+    }
+    #welcome img{
+        width: 50%;
+        border-radius: 55px;
+        position: relative;
+        bottom: 20px; 
+        left: 100px;
+    }
+    #project{
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    #project h2{
+        text-align: center;
+        color: #ad90ec;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .services{
+        width: 90%;
+        display: flex;
+       justify-content: space-between;
+       align-self: center;
+    }
+    .service-card{
+        width: 33%;
+        background-color: orange;
+        text-align: center;
+        margin: 0px auto;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .service-card i{
+        font-size: 25px;
+    }
+    .service-card p{
+        font-size: 15px;
+    }
+    #contact{
+        background-size: 163%;
+    }
+    #contact-forma {
+        width: 55%;}
+
+
+
+
+
+
+
+}
