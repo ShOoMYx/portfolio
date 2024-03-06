@@ -219,7 +219,7 @@ textarea:valid~label{
 	top:-35px;
 	font-size:15px;
 }
-@media screen  and (max-width: 1024px)
+@media screen  and (max-width: 1025px)
 {
     #welcome{
         background-color: rgb(43, 41, 41)  ;
